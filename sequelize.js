@@ -15,7 +15,7 @@ dot.config()
 //   },
 // });
 
-const seqUri = new Sequelize(process.env.DB_URI,{
+const seqUri = new Sequelize(process.env.DATABASE_URL,{
   dialectOptions: {
     ssl: {
       require: true,
