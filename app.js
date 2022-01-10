@@ -19,7 +19,7 @@ import Timeworks from "./connect/test.js";
 console.log("list", List);
 const app = express();
 app.use(express.urlencoded());
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 
 seq
