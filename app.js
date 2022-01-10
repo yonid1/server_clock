@@ -43,6 +43,7 @@ app.locals.manger = 0;
 app.locals.timeOut = 0;
 console.log("local", app.locals.pass);
 app.get("/", (req, res) => {
+  res.send({ massage: "i am here" })
   const fn = async () => {
     // const table = await Sequelize.findAll();
     // res.send(table);
