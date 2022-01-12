@@ -1,5 +1,5 @@
 import sequelize from "sequelize";
-import Seq from "../sequelize.js";
+import Seq from "./sequelize.js";
 const db = {
   List: Seq.define("list-names", {
     id: {
